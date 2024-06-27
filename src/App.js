@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import NavBar from "./components/Navbar/NavBar";
+import ContactList from "./components/contacts/ContactList/ContactList";
+import AddContact from './components/contacts/AddContact/AddContact';
+import EditContact from './components/contacts/EditContact/EditContact';
+import ViewContact from './components/contacts/ViewContact/ViewContact';
+import Spinner from './components/spinner/Spinner';
+import { Routes, Route, Navigate } from "react-router-dom";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <NavBar />
+      <Routes>
+        <Route path={"/"} element={<Navigate to={"/contacts/list"} />} />
+        <Route path={"/contacts/list"} element={<ContactList />} />
+        <Route path={"/contacts/add"} element={<AddContact/>} />
+        <Route path={`/contacts/view/:contactid`} element={<ViewContact />} />
+        <Route path={`/contacts/edit/:contactid`} element={<EditContact />} />
+      </Routes>
+    </React.Fragment>
   );
 }
 

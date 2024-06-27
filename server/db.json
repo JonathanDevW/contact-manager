@@ -1,0 +1,63 @@
+{
+  "contacts": [
+    {
+      "id": "AA$1234",
+      "name": "Zoro",
+      "photo": "https://wallpapers-clan.com/wp-content/uploads/2022/08/zoro-pfp-20.jpg",
+      "mobile": "1111",
+      "email": "zoro@gmail.com",
+      "title": "Developer",
+      "company": "Sombreros",
+      "groupId": "1",
+      "groupid": "2"
+    },
+    {
+      "id": "b84e",
+      "name": "Jonathan",
+      "photo": "https://icon-icons.com/icons2/2620/PNG/512/among_us_player_red_icon_156942.png",
+      "mobile": "7755555",
+      "email": "jona@gmail.com",
+      "title": "2",
+      "company": "Uma",
+      "groupId": ""
+    },
+    {
+      "id": "b329",
+      "name": "Jaime",
+      "photo": "https://cdn.icon-icons.com/icons2/2620/PNG/512/among_us_player_light_blue_icon_156934.png",
+      "mobile": "1111",
+      "email": "ed@gmail.com",
+      "title": "2",
+      "company": "RSM",
+      "groupId": ""
+    },
+    {
+      "id": "494f",
+      "name": "Mi amor",
+      "photo": "https://i.pinimg.com/736x/f2/f9/c0/f2f9c091af7bcaeb0760ec0028faf264.jpg",
+      "mobile": "1111",
+      "email": "s@g.com",
+      "company": "aaa",
+      "title": "2",
+      "groupId": ""
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Family"
+    },
+    {
+      "id": "3",
+      "name": "Work"
+    },
+    {
+      "id": "4",
+      "name": "Classmate"
+    }
+  ]
+}
